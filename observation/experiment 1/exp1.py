@@ -92,7 +92,7 @@ def print_board(board):
         print(" ".join(str(tile) if tile != 0 else "_" for tile in row))
     print()
 if __name__ == "__main__":
-    # 0 represents the blank space
+  
     start_board = (
         (1, 2, 3),
         (0, 4, 6),
